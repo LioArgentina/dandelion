@@ -1,6 +1,6 @@
 Adds functionality to the original package dandelion.
 Automatically add the meta-tag content-encoding gzip for
-files beginning with F8B '1 'indicating that are compressed.
+files beginning with '1f8b' indicating that are compressed.
 
 
 
