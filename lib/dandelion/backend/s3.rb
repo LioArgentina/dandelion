@@ -24,7 +24,7 @@ module Dandelion
         s3connect!
 	
         num = data.unpack("H4")[0]    
-	puts num
+	#puts num
         if num == "1f8b"
                 puts "Archivo comprimido, content type: gzip"
 		AWS::S3::S3Object.store(path(file), data, @bucket_name, :content_encoding  => "gzip")
